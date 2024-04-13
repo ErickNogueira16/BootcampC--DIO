@@ -1,0 +1,14 @@
+C:\Users\erick\Desktop\TreinoC#\bin\Debug\net8.0\TreinoC#.exe
+C:\Users\erick\Desktop\TreinoC#\bin\Debug\net8.0\TreinoC#.deps.json
+C:\Users\erick\Desktop\TreinoC#\bin\Debug\net8.0\TreinoC#.runtimeconfig.json
+C:\Users\erick\Desktop\TreinoC#\bin\Debug\net8.0\TreinoC#.dll
+C:\Users\erick\Desktop\TreinoC#\bin\Debug\net8.0\TreinoC#.pdb
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\TreinoC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\TreinoC#.AssemblyInfoInputs.cache
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\TreinoC#.AssemblyInfo.cs
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\TreinoC#.csproj.CoreCompileInputs.cache
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\TreinoC#.dll
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\refint\TreinoC#.dll
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\TreinoC#.pdb
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\TreinoC#.genruntimeconfig.cache
+C:\Users\erick\Desktop\TreinoC#\obj\Debug\net8.0\ref\TreinoC#.dll
