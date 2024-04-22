@@ -1,58 +1,27 @@
-﻿
-// Coloca o encoding para UTF8 para exibir acentuação
-Console.OutputEncoding = System.Text.Encoding.UTF8;
+﻿using System.Text;
+using DesafioProjetoHospedagem.Models;
 
-decimal precoInicial = 0;
-decimal precoPorHora = 0;
+Console.OutputEncoding = Encoding.UTF8;
 
-Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
-                  "Digite o preço inicial:");
-precoInicial = Convert.ToDecimal(Console.ReadLine());
+// Cria os modelos de hóspedes e cadastra na lista de hóspedes
+List<Pessoa> hospedes = new List<Pessoa>();
 
-Console.WriteLine("Agora digite o preço por hora:");
-precoPorHora = Convert.ToDecimal(Console.ReadLine());
+Pessoa p1 = new Pessoa(nome: "Hóspede 1");
+Pessoa p2 = new Pessoa(nome: "Hóspede 2");
+Pessoa p3 = new Pessoa(nome: "Hóspede 3");
 
-// Instancia a classe Estacionamento, já com os valores obtidos anteriormente
-Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
+hospedes.Add(p1);
+hospedes.Add(p2);
+hospedes.Add(p3);
 
-string opcao = string.Empty;
-bool exibirMenu = true;
+// Cria a suíte
+Suite suite = new Suite(tipoSuite: "Premium", capacidade: 3, valorDiaria: 30);
 
-// Realiza o loop do menu
-while (exibirMenu)
-{
-    Console.Clear();
-    Console.WriteLine("Digite a sua opção:");
-    Console.WriteLine("1 - Cadastrar veículo");
-    Console.WriteLine("2 - Remover veículo");
-    Console.WriteLine("3 - Listar veículos");
-    Console.WriteLine("4 - Encerrar");
+// Cria uma nova reserva, passando a suíte e os hóspedes
+Reserva reserva = new Reserva(diasReservados: 9);
+reserva.CadastrarSuite(suite);
+reserva.CadastrarHospedes(hospedes);
 
-    switch (Console.ReadLine())
-    {
-        case "1":
-            es.AdicionarVeiculo();
-            break;
-
-        case "2":
-            es.RemoverVeiculo();
-            break;
-
-        case "3":
-            es.ListarVeiculos();
-            break;
-
-        case "4":
-            exibirMenu = false;
-            break;
-
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
-    }
-
-    Console.WriteLine("Pressione uma tecla para continuar");
-    Console.ReadLine();
-}
-
-Console.WriteLine("O programa se encerrou");
+// Exibe a quantidade de hóspedes e o valor da diária
+Console.WriteLine($"Hóspedes: {reserva.ObterQuantidadeHospedes()}");
+Console.WriteLine($"Valor diária: {reserva.CalcularValorDiaria()}");
