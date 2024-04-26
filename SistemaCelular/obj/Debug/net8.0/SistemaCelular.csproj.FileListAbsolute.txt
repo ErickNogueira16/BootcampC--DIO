@@ -1,0 +1,14 @@
+C:\Users\erick\Desktop\SistemaCelular\bin\Debug\net8.0\SistemaCelular.exe
+C:\Users\erick\Desktop\SistemaCelular\bin\Debug\net8.0\SistemaCelular.deps.json
+C:\Users\erick\Desktop\SistemaCelular\bin\Debug\net8.0\SistemaCelular.runtimeconfig.json
+C:\Users\erick\Desktop\SistemaCelular\bin\Debug\net8.0\SistemaCelular.dll
+C:\Users\erick\Desktop\SistemaCelular\bin\Debug\net8.0\SistemaCelular.pdb
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\SistemaCelular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\SistemaCelular.AssemblyInfoInputs.cache
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\SistemaCelular.AssemblyInfo.cs
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\SistemaCelular.csproj.CoreCompileInputs.cache
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\SistemaCelular.dll
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\refint\SistemaCelular.dll
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\SistemaCelular.pdb
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\SistemaCelular.genruntimeconfig.cache
+C:\Users\erick\Desktop\SistemaCelular\obj\Debug\net8.0\ref\SistemaCelular.dll
